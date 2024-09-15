@@ -1,6 +1,4 @@
 spring:
-  application:
-    name : AdminMs
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -12,9 +10,6 @@ spring:
   h2:
     console:
       enabled: true
-  cloud:
-    config:
-      enabled: false
 eureka:
   client:
     serviceUrl:
